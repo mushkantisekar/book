@@ -9,9 +9,9 @@ public class ConnectionDao {
 	public static Connection getSQLConnection() throws Exception {
 		try {
 		String driver = "com.mysql.cj.jdbc.Driver";
-		String user = "v95qil3d42zghxfp";
-		String password="vdq7mt00lxf89o16";
-		String url = "jdbc:mysql://	a07yd3a6okcidwap.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mah532g37g14szwp";
+		String user = "bd00f79a26c449";
+		String password="58cdd7c1";
+		String url = "jdbc:mysql://us-cdbr-east-05.cleardb.net/ad_4bbafc4fd3f4bf7?user=bd00f79a26c449&password=58cdd7c1";
 		Class.forName(driver);
 		conn = DriverManager.getConnection(url,user,password);
 		System.out.println("Connected to SQL");
